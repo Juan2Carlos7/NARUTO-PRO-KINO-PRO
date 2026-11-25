@@ -1,11 +1,10 @@
 {
   "id": "theme-naruto-shippuden-pro",
   "name": "Kino TV Pro Naruto",
-  "version": "1.4.1",
+  "version": "1.3.2",
   "apiVersion": 26,
   "entry": "plugin.js",
-  "icon": "icon.png",
-  "description": "Kino TV Pro: temas Naruto Shippuden y Akatsuki con logo propio, fondos degradados intercambiables, resplandores y muchas opciones de personalizacion.",
+  "description": "Kino TV Pro: temas Naruto Shippuden y Akatsuki con logo propio, fondos degradados, resplandores y muchas opciones de personalizacion.",
   "hosts": [],
   "categories": ["themes"],
   "appThemes": [
@@ -83,13 +82,6 @@
         "colors.surface": { "swatches": ["#131C2E", "#181818", "#1A1030", "#10241F"] },
         "colors.surfaceHigh": { "swatches": ["#1C2740", "#242424", "#2A1A48", "#183A32"] },
         "colors.favorite": { "swatches": ["#FF7A00", "#FF3B47", "#FFD600", "#00E5FF"] },
-        "background.colors": { "swatches": [
-          ["#0A1428", "#101C3A", "#2B1406"],
-          ["#0A1428", "#1E3A8A", "#0A1428"],
-          ["#1A0B05", "#7A2A00", "#FF7A00"],
-          ["#0A1428", "#7A3A00", "#0A1428"]
-        ] },
-        "background.angle": { "min": 0, "max": 360 },
         "shape.cardRadius": { "min": 0, "max": 32 },
         "shape.channelRadius": { "min": 0, "max": 32 },
         "shape.buttonRadius": { "min": 0, "max": 32 },
@@ -112,8 +104,7 @@
         "player.buttonScale": { "min": 0.8, "max": 1.4 },
         "player.playButtonScale": { "min": 0.8, "max": 1.6 },
         "player.seekBarScale": { "min": 0.8, "max": 2 },
-        "player.labelScale": { "min": 0.85, "max": 1.3 },
-        "background": true
+        "player.labelScale": { "min": 0.85, "max": 1.3 }
       }
     },
     {
@@ -187,13 +178,6 @@
         "colors.surface": { "swatches": ["#140A0C", "#181818", "#120A1C", "#0A1412"] },
         "colors.surfaceHigh": { "swatches": ["#22100F", "#242424", "#22143A", "#12261F"] },
         "colors.favorite": { "swatches": ["#FF3B47", "#FF7A00", "#FFD600", "#00E5FF"] },
-        "background.colors": { "swatches": [
-          ["#050505", "#120406", "#2A0508"],
-          ["#000000", "#3A0000", "#000000"],
-          ["#0A0000", "#5A0000", "#1A0000"],
-          ["#050505", "#2A0508", "#050505"]
-        ] },
-        "background.angle": { "min": 0, "max": 360 },
         "shape.cardRadius": { "min": 0, "max": 32 },
         "shape.channelRadius": { "min": 0, "max": 32 },
         "shape.buttonRadius": { "min": 0, "max": 32 },
@@ -216,7 +200,7 @@
         "player.buttonScale": { "min": 0.8, "max": 1.4 },
         "player.playButtonScale": { "min": 0.8, "max": 1.6 },
         "player.seekBarScale": { "min": 0.8, "max": 2 },
-        "background": true
+        "player.labelScale": { "min": 0.85, "max": 1.3 }
       }
     }
   ]
