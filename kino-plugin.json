@@ -12,7 +12,7 @@
   "appThemes": [
     {
       "id": "naruto-shippuden",
-      "nombre": {
+      "name": { "es": "Naruto Shippuden Pro", "en": "Naruto Shippuden Pro"
         "es": "Naruto Shippuden · Kino TV Pro",
         "es": "Naruto Shippuden · Kino TV Pro"
       },
