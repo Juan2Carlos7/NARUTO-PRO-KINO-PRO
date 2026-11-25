@@ -17,43 +17,43 @@
         "en": "Naruto Shippuden · Kino TV Pro"
       },
       "colors": {
-        "accent": "#F2A93B",
-        "onAccent": "#140A03",
-        "background": "#06120C",
-        "surface": "#17231D",
-        "surfaceHigh": "#242E29",
-        "railPanel": "#030A07",
+        "accent": "#C1121F",
+        "onAccent": "#FFFFFF",
+        "background": "#080508",
+        "surface": "#191719",
+        "surfaceHigh": "#262326",
+        "railPanel": "#040304",
         "textPrimary": "#F7F3EA",
-        "textSecondary": "#A5A79F",
-        "focus": "#8CE99A",
+        "textSecondary": "#A6A29D",
+        "focus": "#F5F5F5",
         "onFocus": "#1A0A00",
-        "border": "#483C19",
-        "outline": "#38413D",
-        "favorite": "#FF8A3D",
+        "border": "#3C090E",
+        "outline": "#393739",
+        "favorite": "#E01E37",
         "success": "#3DBE7A",
         "warning": "#FFB020",
         "error": "#FF4D4D",
         "scrim": "#000000",
-        "placeholderTop": "#242E29",
-        "placeholderBottom": "#353015"
+        "placeholderTop": "#262326",
+        "placeholderBottom": "#2D080D"
       },
       "background": {
         "type": "gradient",
         "colors": [
-          "#06120C",
-          "#12211A",
-          "#301D07"
+          "#080508",
+          "#170408",
+          "#330A0A"
         ],
-        "angle": 160
+        "angle": 175
       },
       "shape": {
-        "cardRadius": 16,
+        "cardRadius": 14,
         "channelRadius": 16,
         "buttonRadius": 26,
         "chipRadius": 18,
         "dialogRadius": 22,
         "inputRadius": 12,
-        "heroRadius": 24,
+        "heroRadius": 32,
         "railItemRadius": 14,
         "cardBorder": 1,
         "headerBorder": 1,
@@ -88,18 +88,18 @@
           "fill": {
             "type": "gradient",
             "colors": [
-              "#F7CA85",
-              "#F2A93B",
-              "#DA9835"
+              "#A9555A",
+              "#C1121F",
+              "#AE101C"
             ],
             "angle": 165
           },
           "stroke": {
             "width": 1,
-            "color": "#F8D093"
+            "color": "#DD7D84"
           },
           "glow": {
-            "color": "#F2A93B",
+            "color": "#C1121F",
             "radius": 10,
             "alpha": 0.32
           }
@@ -107,31 +107,31 @@
         "buttonGhost": {
           "fill": {
             "type": "solid",
-            "color": "#242E29"
+            "color": "#262326"
           },
           "stroke": {
             "width": 1,
-            "color": "#483C19"
+            "color": "#3C090E"
           }
         },
         "navActive": {
           "fill": {
             "type": "solid",
-            "color": "#2C2A14"
+            "color": "#26070C"
           },
           "stroke": {
             "width": 1.5,
             "gradient": {
               "type": "gradient",
               "colors": [
-                "#F5BF6C",
-                "#F2A93B"
+                "#D14D57",
+                "#C1121F"
               ],
               "angle": 135
             }
           },
           "glow": {
-            "color": "#F2A93B",
+            "color": "#C1121F",
             "radius": 10,
             "alpha": 0.45
           }
@@ -139,26 +139,26 @@
         "rail": {
           "fill": {
             "type": "solid",
-            "color": "#030A07"
+            "color": "#040304"
           },
           "stroke": {
             "width": 1,
-            "color": "#574219"
+            "color": "#46080D"
           }
         },
         "iconButton": {
           "fill": {
             "type": "solid",
-            "color": "#242E29"
+            "color": "#262326"
           },
           "stroke": {
             "width": 1,
-            "color": "#483C19"
+            "color": "#3C090E"
           }
         },
         "card": {
           "glow": {
-            "color": "#F2A93B",
+            "color": "#C1121F",
             "radius": 9,
             "alpha": 0.2
           }
@@ -166,10 +166,10 @@
         "cardFocus": {
           "stroke": {
             "width": 2,
-            "color": "#8CE99A"
+            "color": "#F5F5F5"
           },
           "glow": {
-            "color": "#F2A93B",
+            "color": "#C1121F",
             "radius": 14,
             "alpha": 0.4
           }
@@ -177,10 +177,10 @@
         "focus": {
           "stroke": {
             "width": 2,
-            "color": "#8CE99A"
+            "color": "#F5F5F5"
           },
           "glow": {
-            "color": "#F2A93B",
+            "color": "#C1121F",
             "radius": 8,
             "alpha": 0.45
           }
@@ -188,10 +188,10 @@
         "hero": {
           "stroke": {
             "width": 1,
-            "color": "#79551E"
+            "color": "#610910"
           },
           "glow": {
-            "color": "#F2A93B",
+            "color": "#C1121F",
             "radius": 16,
             "alpha": 0.22
           }
@@ -200,8 +200,8 @@
           "fill": {
             "type": "gradient",
             "colors": [
-              "#8CE99A",
-              "#F2A93B"
+              "#F5F5F5",
+              "#C1121F"
             ],
             "angle": 0
           }
@@ -215,12 +215,12 @@
         "rail": "floating"
       },
       "experience": "full",
-      "pluginColors": "respect",
+      "pluginColors": "override",
       "adjustable": {
         "background": true,
         "colors.accent": {
           "swatches": [
-            "#F2A93B",
+            "#C1121F",
             "#F26522",
             "#FFC93C",
             "#E63946",
@@ -280,11 +280,11 @@
           ],
           "paths": [
             {
-              "d": "M15 1C23 6 26 15 20 24C17.4 28 12.6 29 9.5 27.5C4.5 20 6 8 15 1Z",
+              "d": "M15 1L18.6 11.4L29 15L18.6 18.6L15 29L11.4 18.6L1 15L11.4 11.4Z",
               "fill": "accent"
             },
             {
-              "d": "M15.5 6C13 13 12 19 10.5 25.5L8.5 25C10 18 11.5 12 13 6.5Z",
+              "d": "M15 11.2L18.8 15L15 18.8L11.2 15Z",
               "fill": "onAccent"
             }
           ]
