@@ -1,7 +1,7 @@
 {
   "id": "theme-kino-tv-pro-naruto",
   "name": "Kino TV Pro · Naruto Shippuden",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": 26,
   "entry": "plugin.js",
   "description": "Naruto Shippuden para Kino TV Pro: atardeceres de la Aldea de la Hoja, botones con brillo de chakra, héroe enmarcado, riel flotante, logo vectorial propio y fondo degradado editable. / Naruto Shippuden for Kino TV Pro: Leaf Village sunsets, chakra-glow buttons, framed hero, floating rail, custom vector logo and an editable gradient background.",
