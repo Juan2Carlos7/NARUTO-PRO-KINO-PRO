@@ -1,0 +1,294 @@
+{
+  "id": "theme-kino-tv-pro-naruto",
+  "name": "Kino TV Pro · Naruto Shippuden",
+  "version": "1.0.0",
+  "apiVersion": 26,
+  "entry": "plugin.js",
+  "description": "Naruto Shippuden para Kino TV Pro: atardeceres de la Aldea de la Hoja, botones con brillo de chakra, héroe enmarcado, riel flotante, logo vectorial propio y fondo degradado editable. / Naruto Shippuden for Kino TV Pro: Leaf Village sunsets, chakra-glow buttons, framed hero, floating rail, custom vector logo and an editable gradient background.",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "naruto-shippuden",
+      "name": {
+        "es": "Naruto Shippuden · Kino TV Pro",
+        "en": "Naruto Shippuden · Kino TV Pro"
+      },
+      "colors": {
+        "accent": "#F26522",
+        "onAccent": "#140A03",
+        "background": "#0B0B12",
+        "surface": "#1C1C23",
+        "surfaceHigh": "#28282E",
+        "railPanel": "#06060A",
+        "textPrimary": "#F7F3EA",
+        "textSecondary": "#A7A4A1",
+        "focus": "#FFC93C",
+        "onFocus": "#1A0A00",
+        "border": "#4C2416",
+        "outline": "#3C3C41",
+        "favorite": "#E63946",
+        "success": "#3DBE7A",
+        "warning": "#FFB020",
+        "error": "#FF4D4D",
+        "scrim": "#000000",
+        "placeholderTop": "#28282E",
+        "placeholderBottom": "#391D15"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0B0B12",
+          "#2A1206",
+          "#3E1606"
+        ],
+        "angle": 209
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 18,
+        "dialogRadius": 22,
+        "inputRadius": 12,
+        "heroRadius": 24,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "headerBorder": 1,
+        "dialogBorder": 1,
+        "panelBorder": 1,
+        "menuBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06,
+        "bodyScale": 1
+      },
+      "elevation": {
+        "cardShadow": 0.55,
+        "dialogShadow": 0.6,
+        "heroScrim": 0.72
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.15,
+        "seekBarScale": 1.1,
+        "labelScale": 1,
+        "buttonShape": "rounded"
+      },
+      "surfaces": {
+        "button": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#F7A076",
+              "#F26522",
+              "#DA5B1F"
+            ],
+            "angle": 165
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#F8AA85"
+          },
+          "glow": {
+            "color": "#F26522",
+            "radius": 10,
+            "alpha": 0.32
+          }
+        },
+        "buttonGhost": {
+          "fill": {
+            "type": "solid",
+            "color": "#28282E"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#4C2416"
+          }
+        },
+        "navActive": {
+          "fill": {
+            "type": "solid",
+            "color": "#301915"
+          },
+          "stroke": {
+            "width": 1.5,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#F58C59",
+                "#F26522"
+              ],
+              "angle": 135
+            }
+          },
+          "glow": {
+            "color": "#F26522",
+            "radius": 10,
+            "alpha": 0.45
+          }
+        },
+        "rail": {
+          "fill": {
+            "type": "solid",
+            "color": "#06060A"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#592712"
+          }
+        },
+        "iconButton": {
+          "fill": {
+            "type": "solid",
+            "color": "#28282E"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#4C2416"
+          }
+        },
+        "card": {
+          "glow": {
+            "color": "#F26522",
+            "radius": 9,
+            "alpha": 0.2
+          }
+        },
+        "cardFocus": {
+          "stroke": {
+            "width": 2,
+            "color": "#FFC93C"
+          },
+          "glow": {
+            "color": "#F26522",
+            "radius": 14,
+            "alpha": 0.4
+          }
+        },
+        "focus": {
+          "stroke": {
+            "width": 2,
+            "color": "#FFC93C"
+          },
+          "glow": {
+            "color": "#F26522",
+            "radius": 8,
+            "alpha": 0.45
+          }
+        },
+        "hero": {
+          "stroke": {
+            "width": 1,
+            "color": "#793311"
+          },
+          "glow": {
+            "color": "#F26522",
+            "radius": 16,
+            "alpha": 0.22
+          }
+        },
+        "progress": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#FFC93C",
+              "#F26522"
+            ],
+            "angle": 0
+          }
+        }
+      },
+      "style": {
+        "gloss": 0.4
+      },
+      "layout": {
+        "hero": "framed",
+        "rail": "floating"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {
+        "background": true,
+        "colors.accent": {
+          "swatches": [
+            "#F26522",
+            "#FFC93C",
+            "#E63946",
+            "#4FA8FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "shape.buttonRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "shape.heroRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "typography.scale": {
+          "min": 0.85,
+          "max": 1.3
+        },
+        "elevation.heroScrim": {
+          "min": 0.3,
+          "max": 1
+        },
+        "motion.focusZoom": {
+          "min": 1,
+          "max": 1.15
+        },
+        "player.playButtonScale": {
+          "min": 0.8,
+          "max": 1.6
+        }
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1L18.6 11.4L29 15L18.6 18.6L15 29L11.4 18.6L1 15L11.4 11.4Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 11.2L18.8 15L15 18.8L11.2 15Z",
+              "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            296,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M4 0L0 40L6.5 40L10.5 0ZM4.8 24.6L26.9 4.5L22.8 -0.1L0.7 20ZM0.7 20L18.7 40.1L23.8 35.5L5.7 15.4ZM41.8 0L37.8 40L44.3 40L48.3 0ZM64 0L60 40L66.5 40L70.5 0ZM79.5 0L75.5 40L82 40L86 0ZM64.4 0L75.2 42.2L81.6 40L70.8 -2.2ZM93.4 6.5L115.4 6.5L116 0L94 0ZM90 40L112 40L112.7 33.5L90.7 33.5ZM94 0L90 40L96.5 40L100.5 0ZM109.5 0L105.5 40L112 40L116 0Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M137.4 6.5L159.4 6.5L160 0L138 0ZM145.8 0L141.8 40L148.3 40L152.3 0ZM167.3 0.8L172.5 40.6L179 39.2L173.7 -0.6ZM184.4 -0.6L171.2 39.2L177.4 40.6L190.6 0.8ZM212 0L208 40L214.5 40L218.5 0ZM211.4 6.5L233.4 6.5L234 0L212 0ZM227.5 0L225.2 23.3L231.7 23.3L234 0ZM209.7 23.3L231.7 23.3L232.3 16.8L210.3 16.8ZM242 0L238 40L244.5 40L248.5 0ZM241.4 6.5L263.4 6.5L264 0L242 0ZM257.5 0L255.2 23.3L261.7 23.3L264 0ZM239.7 23.3L261.7 23.3L262.3 16.8L240.3 16.8ZM245.8 18.6L255.3 41.1L261.3 38.1L251.8 15.6ZM271.4 6.5L293.4 6.5L294 0L272 0ZM268 40L290 40L290.7 33.5L268.7 33.5ZM272 0L268 40L274.5 40L278.5 0ZM287.5 0L283.5 40L290 40L294 0Z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

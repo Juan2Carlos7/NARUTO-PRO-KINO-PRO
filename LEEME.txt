@@ -1,0 +1,19 @@
+KINO TV PRO · NARUTO SHIPPUDEN
+Tema para la app Kino (apiVersion 26 · Kino 0.9.87 o posterior)
+
+ARCHIVOS
+- kino-plugin.json   el manifiesto con el tema (no lo renombres)
+- plugin.js          el script vacío que Kino carga
+
+CÓMO INSTALARLO
+1. Crea un repositorio en GitHub y sube los dos archivos a la raíz.
+2. En Kino: Plugins ▸ Agregar ▸ escribe tu usuario/repositorio.
+3. Acepta la hoja de consentimiento y elige el tema en Ajustes ▸ Apariencia.
+4. En Ajustes ▸ Apariencia ▸ Personalizar están los ajustes que el tema permite.
+
+NOTAS
+- El tema no usa internet, no corre código y no pide capacidades.
+- El fondo degradado se puede cambiar desde Apariencia; en el tema está declarado como ajustable.
+- Si quieres tu propia tipografía, agrega el archivo .ttf al repositorio y decláralo en "assets"
+  con su sha256 y sus bytes, y en "typography.fontFamily".
+- Kino ignora cualquier efecto que el aparato tenga apagado: el tema se ve bien sin ellos.
