@@ -1,23 +1,558 @@
 {
   "id": "theme-kino-tv-pro-naruto",
   "name": "Kino TV Pro · Naruto Shippuden",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "apiVersion": 26,
   "entry": "plugin.js",
-  "description": "Naruto Shippuden para Kino TV Pro: atardeceres de la Aldea de la Hoja, botones con brillo de chakra, héroe enmarcado, riel flotante, logo vectorial propio y fondo degradado editable. / Naruto Shippuden for Kino TV Pro: Leaf Village sunsets, chakra-glow buttons, framed hero, floating rail, custom vector logo and an editable gradient background.",
+  "description": "Ocho temas de Naruto Shippuden para Kino TV Pro (Aldea de la Hoja, Kyuubi, Sharingan, Chidori, Modo Sabio, Akatsuki, Hokage y Noche en Konoha), con una pantalla propia para cambiar de tema, botones con brillo de chakra, logo vectorial y fondo degradado editable. / Eight Naruto Shippuden themes for Kino TV Pro, with its own screen to switch themes.",
   "hosts": [],
   "categories": [
     "themes"
   ],
+  "capabilities": [
+    "screen"
+  ],
+  "screen": {
+    "label": "Temas",
+    "labelEn": "Themes",
+    "icon": "tune",
+    "menuOpens": "screen"
+  },
   "appThemes": [
     {
-      "id": "naruto-shippuden",
+      "id": "konoha",
       "name": {
-        "es": "Naruto Shippuden · Kino TV Pro",
-        "en": "Naruto Shippuden · Kino TV Pro"
+        "es": "Aldea de la Hoja",
+        "en": "Leaf Village"
       },
       "colors": {
-        "accent": "#C1121F",
+        "accent": "#FF4D1C",
+        "onAccent": "#140A03",
+        "background": "#0A0508",
+        "surface": "#1B1719",
+        "surfaceHigh": "#272326",
+        "railPanel": "#060304",
+        "textPrimary": "#F7F3EA",
+        "textSecondary": "#A6A29D",
+        "focus": "#FFB020",
+        "onFocus": "#1A0A00",
+        "border": "#4F190E",
+        "outline": "#3B3739",
+        "favorite": "#FF2E4D"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0A0508",
+          "#33070F",
+          "#481105",
+          "#481105"
+        ],
+        "angle": 359
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 18,
+        "dialogRadius": 22,
+        "heroRadius": 24,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06
+      },
+      "elevation": {
+        "cardShadow": 0.85,
+        "heroScrim": 0.72
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.5,
+        "seekBarScale": 1.1,
+        "buttonShape": "square"
+      },
+      "style": {
+        "gloss": 0.45
+      },
+      "layout": {
+        "hero": "fullBleed",
+        "rail": "strip"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {},
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1C20 9 25.5 13 25.5 19.5C25.5 25.6 20.9 29 15 29C9.1 29 4.5 25.6 4.5 19.5C4.5 14 9 10 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 11C18 15 19.4 17.4 19.4 20.6C19.4 23.8 17.4 26 15 26C12.6 26 10.6 23.8 10.6 20.6C10.6 17.4 12 15 15 11Z",
+              "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            292,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M0 0h6v40h-6zM3 24.2l20.2 -20.2l-4.2 -4.2l-20.2 20.2zM-1.2 20l20.2 20.2l4.2 -4.2l-20.2 -20.2zM38 0h6v40h-6zM60 0h6v40h-6zM76 0h6v40h-6zM61.2 0.1l13.9 41.7l5.7 -1.9l-13.9 -41.7zM90 0h22v6h-22zM90 34h22v6h-22zM90 0h6v40h-6zM106 0h6v40h-6z",
+              "fill": "accent"
+            },
+            {
+              "d": "M134 0h22v6h-22zM142 0h6v40h-6zM163.4 0.8l9.4 39.8l5.8 -1.4l-9.4 -39.8zM180.8 -0.6l-9.4 39.8l5.8 1.4l9.4 -39.8zM208 0h6v40h-6zM208 0h22v6h-22zM224 0h6v23h-6zM208 17h22v6h-22zM238 0h6v40h-6zM238 0h22v6h-22zM254 0h6v23h-6zM238 17h22v6h-22zM244 18.8l11.8 22.3l5.3 -2.8l-11.8 -22.3zM268 0h22v6h-22zM268 34h22v6h-22zM268 0h6v40h-6zM284 0h6v40h-6z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kyuubi",
+      "name": {
+        "es": "Chakra Kyuubi",
+        "en": "Nine Tails Chakra"
+      },
+      "colors": {
+        "accent": "#FF4D1C",
+        "onAccent": "#140A03",
+        "background": "#0A0508",
+        "surface": "#1B1719",
+        "surfaceHigh": "#272326",
+        "railPanel": "#060304",
+        "textPrimary": "#F7F3EA",
+        "textSecondary": "#A6A29D",
+        "focus": "#FFB020",
+        "onFocus": "#1A0A00",
+        "border": "#4F190E",
+        "outline": "#3B3739",
+        "favorite": "#FF2E4D"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0A0508",
+          "#33070F",
+          "#481105"
+        ],
+        "angle": 150
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 18,
+        "dialogRadius": 22,
+        "heroRadius": 24,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06
+      },
+      "elevation": {
+        "cardShadow": 0.85,
+        "heroScrim": 0.72
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.5,
+        "seekBarScale": 1.1,
+        "buttonShape": "square"
+      },
+      "style": {
+        "gloss": 0.45
+      },
+      "layout": {
+        "hero": "fullBleed",
+        "rail": "strip"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {},
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1C20 9 25.5 13 25.5 19.5C25.5 25.6 20.9 29 15 29C9.1 29 4.5 25.6 4.5 19.5C4.5 14 9 10 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 11C18 15 19.4 17.4 19.4 20.6C19.4 23.8 17.4 26 15 26C12.6 26 10.6 23.8 10.6 20.6C10.6 17.4 12 15 15 11Z",
+              "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            292,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M0 0h6v40h-6zM3 24.2l20.2 -20.2l-4.2 -4.2l-20.2 20.2zM-1.2 20l20.2 20.2l4.2 -4.2l-20.2 -20.2zM38 0h6v40h-6zM60 0h6v40h-6zM76 0h6v40h-6zM61.2 0.1l13.9 41.7l5.7 -1.9l-13.9 -41.7zM90 0h22v6h-22zM90 34h22v6h-22zM90 0h6v40h-6zM106 0h6v40h-6z",
+              "fill": "accent"
+            },
+            {
+              "d": "M134 0h22v6h-22zM142 0h6v40h-6zM163.4 0.8l9.4 39.8l5.8 -1.4l-9.4 -39.8zM180.8 -0.6l-9.4 39.8l5.8 1.4l9.4 -39.8zM208 0h6v40h-6zM208 0h22v6h-22zM224 0h6v23h-6zM208 17h22v6h-22zM238 0h6v40h-6zM238 0h22v6h-22zM254 0h6v23h-6zM238 17h22v6h-22zM244 18.8l11.8 22.3l5.3 -2.8l-11.8 -22.3zM268 0h22v6h-22zM268 34h22v6h-22zM268 0h6v40h-6zM284 0h6v40h-6z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sharingan",
+      "name": {
+        "es": "Sharingan",
+        "en": "Sharingan"
+      },
+      "colors": {
+        "accent": "#D7263D",
+        "onAccent": "#FFFFFF",
+        "background": "#0A0406",
+        "surface": "#1B1617",
+        "surfaceHigh": "#272224",
+        "railPanel": "#060203",
+        "textPrimary": "#F7F3EA",
+        "textSecondary": "#A6A29C",
+        "focus": "#FF6B6B",
+        "onFocus": "#1A0A00",
+        "border": "#430E15",
+        "outline": "#3B3638",
+        "favorite": "#FF3B5C"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0A0406",
+          "#24040A",
+          "#3C0808"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 18,
+        "dialogRadius": 22,
+        "heroRadius": 24,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06
+      },
+      "elevation": {
+        "cardShadow": 0.85,
+        "heroScrim": 0.72
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.5,
+        "seekBarScale": 1.1,
+        "buttonShape": "square"
+      },
+      "style": {
+        "gloss": 0.45
+      },
+      "layout": {
+        "hero": "fullBleed",
+        "rail": "strip"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {},
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1C20 9 25.5 13 25.5 19.5C25.5 25.6 20.9 29 15 29C9.1 29 4.5 25.6 4.5 19.5C4.5 14 9 10 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 11C18 15 19.4 17.4 19.4 20.6C19.4 23.8 17.4 26 15 26C12.6 26 10.6 23.8 10.6 20.6C10.6 17.4 12 15 15 11Z",
+              "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            292,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M0 0h6v40h-6zM3 24.2l20.2 -20.2l-4.2 -4.2l-20.2 20.2zM-1.2 20l20.2 20.2l4.2 -4.2l-20.2 -20.2zM38 0h6v40h-6zM60 0h6v40h-6zM76 0h6v40h-6zM61.2 0.1l13.9 41.7l5.7 -1.9l-13.9 -41.7zM90 0h22v6h-22zM90 34h22v6h-22zM90 0h6v40h-6zM106 0h6v40h-6z",
+              "fill": "accent"
+            },
+            {
+              "d": "M134 0h22v6h-22zM142 0h6v40h-6zM163.4 0.8l9.4 39.8l5.8 -1.4l-9.4 -39.8zM180.8 -0.6l-9.4 39.8l5.8 1.4l9.4 -39.8zM208 0h6v40h-6zM208 0h22v6h-22zM224 0h6v23h-6zM208 17h22v6h-22zM238 0h6v40h-6zM238 0h22v6h-22zM254 0h6v23h-6zM238 17h22v6h-22zM244 18.8l11.8 22.3l5.3 -2.8l-11.8 -22.3zM268 0h22v6h-22zM268 34h22v6h-22zM268 0h6v40h-6zM284 0h6v40h-6z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chidori",
+      "name": {
+        "es": "Chidori",
+        "en": "Chidori"
+      },
+      "colors": {
+        "accent": "#4FA8FF",
+        "onAccent": "#140A03",
+        "background": "#05060F",
+        "surface": "#171720",
+        "surfaceHigh": "#23242C",
+        "railPanel": "#030308",
+        "textPrimary": "#F7F3EA",
+        "textSecondary": "#A5A2A0",
+        "focus": "#9BE7FF",
+        "onFocus": "#1A0A00",
+        "border": "#1A3352",
+        "outline": "#37383F",
+        "favorite": "#7FB2FF"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#05060F",
+          "#0D1730",
+          "#191029"
+        ],
+        "angle": 200
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 18,
+        "dialogRadius": 22,
+        "heroRadius": 24,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06
+      },
+      "elevation": {
+        "cardShadow": 0.85,
+        "heroScrim": 0.72
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.5,
+        "seekBarScale": 1.1,
+        "buttonShape": "square"
+      },
+      "style": {
+        "gloss": 0.45
+      },
+      "layout": {
+        "hero": "fullBleed",
+        "rail": "strip"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {},
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1C20 9 25.5 13 25.5 19.5C25.5 25.6 20.9 29 15 29C9.1 29 4.5 25.6 4.5 19.5C4.5 14 9 10 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 11C18 15 19.4 17.4 19.4 20.6C19.4 23.8 17.4 26 15 26C12.6 26 10.6 23.8 10.6 20.6C10.6 17.4 12 15 15 11Z",
+              "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            292,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M0 0h6v40h-6zM3 24.2l20.2 -20.2l-4.2 -4.2l-20.2 20.2zM-1.2 20l20.2 20.2l4.2 -4.2l-20.2 -20.2zM38 0h6v40h-6zM60 0h6v40h-6zM76 0h6v40h-6zM61.2 0.1l13.9 41.7l5.7 -1.9l-13.9 -41.7zM90 0h22v6h-22zM90 34h22v6h-22zM90 0h6v40h-6zM106 0h6v40h-6z",
+              "fill": "accent"
+            },
+            {
+              "d": "M134 0h22v6h-22zM142 0h6v40h-6zM163.4 0.8l9.4 39.8l5.8 -1.4l-9.4 -39.8zM180.8 -0.6l-9.4 39.8l5.8 1.4l9.4 -39.8zM208 0h6v40h-6zM208 0h22v6h-22zM224 0h6v23h-6zM208 17h22v6h-22zM238 0h6v40h-6zM238 0h22v6h-22zM254 0h6v23h-6zM238 17h22v6h-22zM244 18.8l11.8 22.3l5.3 -2.8l-11.8 -22.3zM268 0h22v6h-22zM268 34h22v6h-22zM268 0h6v40h-6zM284 0h6v40h-6z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sabio",
+      "name": {
+        "es": "Modo Sabio",
+        "en": "Sage Mode"
+      },
+      "colors": {
+        "accent": "#F2A93B",
+        "onAccent": "#140A03",
+        "background": "#06120C",
+        "surface": "#17231D",
+        "surfaceHigh": "#242E29",
+        "railPanel": "#030A07",
+        "textPrimary": "#F7F3EA",
+        "textSecondary": "#A5A79F",
+        "focus": "#8CE99A",
+        "onFocus": "#1A0A00",
+        "border": "#483C19",
+        "outline": "#38413D",
+        "favorite": "#FF8A3D"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#06120C",
+          "#12211A",
+          "#301D07"
+        ],
+        "angle": 160
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 18,
+        "dialogRadius": 22,
+        "heroRadius": 24,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06
+      },
+      "elevation": {
+        "cardShadow": 0.85,
+        "heroScrim": 0.72
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.5,
+        "seekBarScale": 1.1,
+        "buttonShape": "square"
+      },
+      "style": {
+        "gloss": 0.45
+      },
+      "layout": {
+        "hero": "fullBleed",
+        "rail": "strip"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {},
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1C20 9 25.5 13 25.5 19.5C25.5 25.6 20.9 29 15 29C9.1 29 4.5 25.6 4.5 19.5C4.5 14 9 10 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 11C18 15 19.4 17.4 19.4 20.6C19.4 23.8 17.4 26 15 26C12.6 26 10.6 23.8 10.6 20.6C10.6 17.4 12 15 15 11Z",
+              "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            292,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M0 0h6v40h-6zM3 24.2l20.2 -20.2l-4.2 -4.2l-20.2 20.2zM-1.2 20l20.2 20.2l4.2 -4.2l-20.2 -20.2zM38 0h6v40h-6zM60 0h6v40h-6zM76 0h6v40h-6zM61.2 0.1l13.9 41.7l5.7 -1.9l-13.9 -41.7zM90 0h22v6h-22zM90 34h22v6h-22zM90 0h6v40h-6zM106 0h6v40h-6z",
+              "fill": "accent"
+            },
+            {
+              "d": "M134 0h22v6h-22zM142 0h6v40h-6zM163.4 0.8l9.4 39.8l5.8 -1.4l-9.4 -39.8zM180.8 -0.6l-9.4 39.8l5.8 1.4l9.4 -39.8zM208 0h6v40h-6zM208 0h22v6h-22zM224 0h6v23h-6zM208 17h22v6h-22zM238 0h6v40h-6zM238 0h22v6h-22zM254 0h6v23h-6zM238 17h22v6h-22zM244 18.8l11.8 22.3l5.3 -2.8l-11.8 -22.3zM268 0h22v6h-22zM268 34h22v6h-22zM268 0h6v40h-6zM284 0h6v40h-6z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "akatsuki",
+      "name": {
+        "es": "Akatsuki",
+        "en": "Akatsuki"
+      },
+      "colors": {
+        "accent": "#E01E37",
         "onAccent": "#FFFFFF",
         "background": "#080508",
         "surface": "#191719",
@@ -27,15 +562,9 @@
         "textSecondary": "#A6A29D",
         "focus": "#F5F5F5",
         "onFocus": "#1A0A00",
-        "border": "#3C090E",
+        "border": "#440C15",
         "outline": "#393739",
-        "favorite": "#E01E37",
-        "success": "#3DBE7A",
-        "warning": "#FFB020",
-        "error": "#FF4D4D",
-        "scrim": "#000000",
-        "placeholderTop": "#262326",
-        "placeholderBottom": "#2D080D"
+        "favorite": "#FF3B5C"
       },
       "background": {
         "type": "gradient",
@@ -47,28 +576,22 @@
         "angle": 175
       },
       "shape": {
-        "cardRadius": 14,
+        "cardRadius": 16,
         "channelRadius": 16,
         "buttonRadius": 26,
         "chipRadius": 18,
         "dialogRadius": 22,
-        "inputRadius": 12,
-        "heroRadius": 32,
+        "heroRadius": 24,
         "railItemRadius": 14,
         "cardBorder": 1,
-        "headerBorder": 1,
-        "dialogBorder": 1,
-        "panelBorder": 1,
-        "menuBorder": 1
+        "headerBorder": 1
       },
       "typography": {
         "scale": 1,
-        "titleScale": 1.06,
-        "bodyScale": 1
+        "titleScale": 1.06
       },
       "elevation": {
-        "cardShadow": 0.55,
-        "dialogShadow": 0.6,
+        "cardShadow": 0.85,
         "heroScrim": 0.72
       },
       "motion": {
@@ -78,200 +601,20 @@
       },
       "player": {
         "buttonScale": 1.05,
-        "playButtonScale": 1.15,
+        "playButtonScale": 1.5,
         "seekBarScale": 1.1,
-        "labelScale": 1,
-        "buttonShape": "rounded"
-      },
-      "surfaces": {
-        "button": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#A9555A",
-              "#C1121F",
-              "#AE101C"
-            ],
-            "angle": 165
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#DD7D84"
-          },
-          "glow": {
-            "color": "#C1121F",
-            "radius": 10,
-            "alpha": 0.32
-          }
-        },
-        "buttonGhost": {
-          "fill": {
-            "type": "solid",
-            "color": "#262326"
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#3C090E"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "solid",
-            "color": "#26070C"
-          },
-          "stroke": {
-            "width": 1.5,
-            "gradient": {
-              "type": "gradient",
-              "colors": [
-                "#D14D57",
-                "#C1121F"
-              ],
-              "angle": 135
-            }
-          },
-          "glow": {
-            "color": "#C1121F",
-            "radius": 10,
-            "alpha": 0.45
-          }
-        },
-        "rail": {
-          "fill": {
-            "type": "solid",
-            "color": "#040304"
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#46080D"
-          }
-        },
-        "iconButton": {
-          "fill": {
-            "type": "solid",
-            "color": "#262326"
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#3C090E"
-          }
-        },
-        "card": {
-          "glow": {
-            "color": "#C1121F",
-            "radius": 9,
-            "alpha": 0.2
-          }
-        },
-        "cardFocus": {
-          "stroke": {
-            "width": 2,
-            "color": "#F5F5F5"
-          },
-          "glow": {
-            "color": "#C1121F",
-            "radius": 14,
-            "alpha": 0.4
-          }
-        },
-        "focus": {
-          "stroke": {
-            "width": 2,
-            "color": "#F5F5F5"
-          },
-          "glow": {
-            "color": "#C1121F",
-            "radius": 8,
-            "alpha": 0.45
-          }
-        },
-        "hero": {
-          "stroke": {
-            "width": 1,
-            "color": "#610910"
-          },
-          "glow": {
-            "color": "#C1121F",
-            "radius": 16,
-            "alpha": 0.22
-          }
-        },
-        "progress": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#F5F5F5",
-              "#C1121F"
-            ],
-            "angle": 0
-          }
-        }
+        "buttonShape": "square"
       },
       "style": {
-        "gloss": 0.4
+        "gloss": 0.45
       },
       "layout": {
-        "hero": "framed",
-        "rail": "floating"
+        "hero": "fullBleed",
+        "rail": "strip"
       },
       "experience": "full",
-      "pluginColors": "override",
-      "adjustable": {
-        "background": true,
-        "colors.accent": {
-          "swatches": [
-            "#C1121F",
-            "#F26522",
-            "#FFC93C",
-            "#E63946",
-            "#4FA8FF"
-          ]
-        },
-        "colors.favorite": {
-          "swatches": [
-            "#E63946",
-            "#FF7A1A",
-            "#FFC93C",
-            "#4FA8FF"
-          ]
-        },
-        "shape.cardRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.buttonRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.heroRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.railItemRadius": {
-          "min": 0,
-          "max": 24
-        },
-        "typography.scale": {
-          "min": 0.85,
-          "max": 1.3
-        },
-        "elevation.heroScrim": {
-          "min": 0.3,
-          "max": 1
-        },
-        "motion.focusZoom": {
-          "min": 1,
-          "max": 1.15
-        },
-        "player.playButtonScale": {
-          "min": 0.8,
-          "max": 1.6
-        },
-        "player.seekBarScale": {
-          "min": 0.8,
-          "max": 2
-        }
-      },
+      "pluginColors": "respect",
+      "adjustable": {},
       "logo": {
         "mark": {
           "size": [
@@ -280,27 +623,237 @@
           ],
           "paths": [
             {
-              "d": "M15 1L18.6 11.4L29 15L18.6 18.6L15 29L11.4 18.6L1 15L11.4 11.4Z",
+              "d": "M15 1C20 9 25.5 13 25.5 19.5C25.5 25.6 20.9 29 15 29C9.1 29 4.5 25.6 4.5 19.5C4.5 14 9 10 15 1Z",
               "fill": "accent"
             },
             {
-              "d": "M15 11.2L18.8 15L15 18.8L11.2 15Z",
+              "d": "M15 11C18 15 19.4 17.4 19.4 20.6C19.4 23.8 17.4 26 15 26C12.6 26 10.6 23.8 10.6 20.6C10.6 17.4 12 15 15 11Z",
               "fill": "onAccent"
             }
           ]
         },
         "wordmark": {
           "size": [
-            296,
+            292,
             40
           ],
           "paths": [
             {
-              "d": "M4 0L0 40L6.5 40L10.5 0ZM4.8 24.6L26.9 4.5L22.8 -0.1L0.7 20ZM0.7 20L18.7 40.1L23.8 35.5L5.7 15.4ZM41.8 0L37.8 40L44.3 40L48.3 0ZM64 0L60 40L66.5 40L70.5 0ZM79.5 0L75.5 40L82 40L86 0ZM64.4 0L75.2 42.2L81.6 40L70.8 -2.2ZM93.4 6.5L115.4 6.5L116 0L94 0ZM90 40L112 40L112.7 33.5L90.7 33.5ZM94 0L90 40L96.5 40L100.5 0ZM109.5 0L105.5 40L112 40L116 0Z",
+              "d": "M0 0h6v40h-6zM3 24.2l20.2 -20.2l-4.2 -4.2l-20.2 20.2zM-1.2 20l20.2 20.2l4.2 -4.2l-20.2 -20.2zM38 0h6v40h-6zM60 0h6v40h-6zM76 0h6v40h-6zM61.2 0.1l13.9 41.7l5.7 -1.9l-13.9 -41.7zM90 0h22v6h-22zM90 34h22v6h-22zM90 0h6v40h-6zM106 0h6v40h-6z",
               "fill": "accent"
             },
             {
-              "d": "M137.4 6.5L159.4 6.5L160 0L138 0ZM145.8 0L141.8 40L148.3 40L152.3 0ZM167.3 0.8L172.5 40.6L179 39.2L173.7 -0.6ZM184.4 -0.6L171.2 39.2L177.4 40.6L190.6 0.8ZM212 0L208 40L214.5 40L218.5 0ZM211.4 6.5L233.4 6.5L234 0L212 0ZM227.5 0L225.2 23.3L231.7 23.3L234 0ZM209.7 23.3L231.7 23.3L232.3 16.8L210.3 16.8ZM242 0L238 40L244.5 40L248.5 0ZM241.4 6.5L263.4 6.5L264 0L242 0ZM257.5 0L255.2 23.3L261.7 23.3L264 0ZM239.7 23.3L261.7 23.3L262.3 16.8L240.3 16.8ZM245.8 18.6L255.3 41.1L261.3 38.1L251.8 15.6ZM271.4 6.5L293.4 6.5L294 0L272 0ZM268 40L290 40L290.7 33.5L268.7 33.5ZM272 0L268 40L274.5 40L278.5 0ZM287.5 0L283.5 40L290 40L294 0Z",
+              "d": "M134 0h22v6h-22zM142 0h6v40h-6zM163.4 0.8l9.4 39.8l5.8 -1.4l-9.4 -39.8zM180.8 -0.6l-9.4 39.8l5.8 1.4l9.4 -39.8zM208 0h6v40h-6zM208 0h22v6h-22zM224 0h6v23h-6zM208 17h22v6h-22zM238 0h6v40h-6zM238 0h22v6h-22zM254 0h6v23h-6zM238 17h22v6h-22zM244 18.8l11.8 22.3l5.3 -2.8l-11.8 -22.3zM268 0h22v6h-22zM268 34h22v6h-22zM268 0h6v40h-6zM284 0h6v40h-6z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hokage",
+      "name": {
+        "es": "Hokage",
+        "en": "Hokage"
+      },
+      "colors": {
+        "accent": "#FFC93C",
+        "onAccent": "#140A03",
+        "background": "#0B0906",
+        "surface": "#1C1A17",
+        "surfaceHigh": "#282724",
+        "railPanel": "#060503",
+        "textPrimary": "#F7F3EA",
+        "textSecondary": "#A7A39C",
+        "focus": "#FFF3C4",
+        "onFocus": "#1A0A00",
+        "border": "#4F3F15",
+        "outline": "#3C3A38",
+        "favorite": "#FF8A3D"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0B0906",
+          "#221806",
+          "#331F04"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 18,
+        "dialogRadius": 22,
+        "heroRadius": 24,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06
+      },
+      "elevation": {
+        "cardShadow": 0.85,
+        "heroScrim": 0.72
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.5,
+        "seekBarScale": 1.1,
+        "buttonShape": "square"
+      },
+      "style": {
+        "gloss": 0.45
+      },
+      "layout": {
+        "hero": "fullBleed",
+        "rail": "strip"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {},
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1C20 9 25.5 13 25.5 19.5C25.5 25.6 20.9 29 15 29C9.1 29 4.5 25.6 4.5 19.5C4.5 14 9 10 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 11C18 15 19.4 17.4 19.4 20.6C19.4 23.8 17.4 26 15 26C12.6 26 10.6 23.8 10.6 20.6C10.6 17.4 12 15 15 11Z",
+              "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            292,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M0 0h6v40h-6zM3 24.2l20.2 -20.2l-4.2 -4.2l-20.2 20.2zM-1.2 20l20.2 20.2l4.2 -4.2l-20.2 -20.2zM38 0h6v40h-6zM60 0h6v40h-6zM76 0h6v40h-6zM61.2 0.1l13.9 41.7l5.7 -1.9l-13.9 -41.7zM90 0h22v6h-22zM90 34h22v6h-22zM90 0h6v40h-6zM106 0h6v40h-6z",
+              "fill": "accent"
+            },
+            {
+              "d": "M134 0h22v6h-22zM142 0h6v40h-6zM163.4 0.8l9.4 39.8l5.8 -1.4l-9.4 -39.8zM180.8 -0.6l-9.4 39.8l5.8 1.4l9.4 -39.8zM208 0h6v40h-6zM208 0h22v6h-22zM224 0h6v23h-6zM208 17h22v6h-22zM238 0h6v40h-6zM238 0h22v6h-22zM254 0h6v23h-6zM238 17h22v6h-22zM244 18.8l11.8 22.3l5.3 -2.8l-11.8 -22.3zM268 0h22v6h-22zM268 34h22v6h-22zM268 0h6v40h-6zM284 0h6v40h-6z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "noche",
+      "name": {
+        "es": "Noche en Konoha",
+        "en": "Konoha at Night"
+      },
+      "colors": {
+        "accent": "#5B8DEF",
+        "onAccent": "#140A03",
+        "background": "#06070D",
+        "surface": "#17181E",
+        "surfaceHigh": "#24252A",
+        "railPanel": "#030407",
+        "textPrimary": "#F7F3EA",
+        "textSecondary": "#A5A39F",
+        "focus": "#A9C1FF",
+        "onFocus": "#1A0A00",
+        "border": "#1E2D4C",
+        "outline": "#38393D",
+        "favorite": "#FF6B8A"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#06070D",
+          "#0E1524",
+          "#170F2A"
+        ],
+        "angle": 200
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 18,
+        "dialogRadius": 22,
+        "heroRadius": 24,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06
+      },
+      "elevation": {
+        "cardShadow": 0.85,
+        "heroScrim": 0.72
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.5,
+        "seekBarScale": 1.1,
+        "buttonShape": "square"
+      },
+      "style": {
+        "gloss": 0.45
+      },
+      "layout": {
+        "hero": "fullBleed",
+        "rail": "strip"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {},
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1C20 9 25.5 13 25.5 19.5C25.5 25.6 20.9 29 15 29C9.1 29 4.5 25.6 4.5 19.5C4.5 14 9 10 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 11C18 15 19.4 17.4 19.4 20.6C19.4 23.8 17.4 26 15 26C12.6 26 10.6 23.8 10.6 20.6C10.6 17.4 12 15 15 11Z",
+              "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            292,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M0 0h6v40h-6zM3 24.2l20.2 -20.2l-4.2 -4.2l-20.2 20.2zM-1.2 20l20.2 20.2l4.2 -4.2l-20.2 -20.2zM38 0h6v40h-6zM60 0h6v40h-6zM76 0h6v40h-6zM61.2 0.1l13.9 41.7l5.7 -1.9l-13.9 -41.7zM90 0h22v6h-22zM90 34h22v6h-22zM90 0h6v40h-6zM106 0h6v40h-6z",
+              "fill": "accent"
+            },
+            {
+              "d": "M134 0h22v6h-22zM142 0h6v40h-6zM163.4 0.8l9.4 39.8l5.8 -1.4l-9.4 -39.8zM180.8 -0.6l-9.4 39.8l5.8 1.4l9.4 -39.8zM208 0h6v40h-6zM208 0h22v6h-22zM224 0h6v23h-6zM208 17h22v6h-22zM238 0h6v40h-6zM238 0h22v6h-22zM254 0h6v23h-6zM238 17h22v6h-22zM244 18.8l11.8 22.3l5.3 -2.8l-11.8 -22.3zM268 0h22v6h-22zM268 34h22v6h-22zM268 0h6v40h-6zM284 0h6v40h-6z",
               "fill": "textPrimary"
             }
           ]
