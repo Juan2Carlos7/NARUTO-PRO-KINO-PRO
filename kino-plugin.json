@@ -89,7 +89,14 @@
       "experience": "full",
       "pluginColors": "override",
       "adjustable": {
-        "background": true
+        "colors.accent": {
+          "swatches": [
+            "#F26522",
+            "#FFC93C",
+            "#E63946",
+            "#4FA8FF"
+          ]
+        }
       },
       "logo": {
         "mark": {
@@ -196,7 +203,15 @@
       "experience": "full",
       "pluginColors": "override",
       "adjustable": {
-        "background": true
+        "colors.accent": {
+          "swatches": [
+            "#FF4D1C",
+            "#F26522",
+            "#FFC93C",
+            "#E63946",
+            "#4FA8FF"
+          ]
+        }
       },
       "logo": {
         "mark": {
@@ -303,7 +318,15 @@
       "experience": "full",
       "pluginColors": "override",
       "adjustable": {
-        "background": true
+        "colors.accent": {
+          "swatches": [
+            "#D7263D",
+            "#F26522",
+            "#FFC93C",
+            "#E63946",
+            "#4FA8FF"
+          ]
+        }
       },
       "logo": {
         "mark": {
@@ -410,7 +433,14 @@
       "experience": "full",
       "pluginColors": "override",
       "adjustable": {
-        "background": true
+        "colors.accent": {
+          "swatches": [
+            "#4FA8FF",
+            "#F26522",
+            "#FFC93C",
+            "#E63946"
+          ]
+        }
       },
       "logo": {
         "mark": {
@@ -517,7 +547,15 @@
       "experience": "full",
       "pluginColors": "override",
       "adjustable": {
-        "background": true
+        "colors.accent": {
+          "swatches": [
+            "#F2A93B",
+            "#F26522",
+            "#FFC93C",
+            "#E63946",
+            "#4FA8FF"
+          ]
+        }
       },
       "logo": {
         "mark": {
@@ -624,7 +662,15 @@
       "experience": "full",
       "pluginColors": "override",
       "adjustable": {
-        "background": true
+        "colors.accent": {
+          "swatches": [
+            "#E01E37",
+            "#F26522",
+            "#FFC93C",
+            "#E63946",
+            "#4FA8FF"
+          ]
+        }
       },
       "logo": {
         "mark": {
@@ -731,7 +777,14 @@
       "experience": "full",
       "pluginColors": "override",
       "adjustable": {
-        "background": true
+        "colors.accent": {
+          "swatches": [
+            "#FFC93C",
+            "#F26522",
+            "#E63946",
+            "#4FA8FF"
+          ]
+        }
       },
       "logo": {
         "mark": {
@@ -838,7 +891,15 @@
       "experience": "full",
       "pluginColors": "override",
       "adjustable": {
-        "background": true
+        "colors.accent": {
+          "swatches": [
+            "#5B8DEF",
+            "#F26522",
+            "#FFC93C",
+            "#E63946",
+            "#4FA8FF"
+          ]
+        }
       },
       "logo": {
         "mark": {
