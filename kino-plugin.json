@@ -1,7 +1,7 @@
 {
   "id": "theme-kino-tv-pro-naruto",
   "nombre": "Kino TV Pro · Naruto Shippuden",
-  "versión": "1.0.1",
+  "versión": "1.0.2",
   "apiVersion": 26,
   "entrada": "plugin.js",
   "description": "Naruto Shippuden para Kino TV Pro: atardeceres de la Aldea de la Hoja, botones con brillo de chakra, héroe enmarcado, riel flotante, logo vectorial propio y fondo degradado editable. / Naruto Shippuden para Kino TV Pro: atardeceres de Leaf Village, botones con brillo de chakra, héroe enmarcado, riel flotante, logotipo vectorial personalizado y un fondo degradado editable.",
@@ -17,35 +17,34 @@
         "es": "Naruto Shippuden · Kino TV Pro"
       },
       "colores": {
-        "acento": "#FF4D1C",
-        "onAccent": "#140A03",
-        "fondo": "#0A0508",
-        "superficie": "#1B1719",
-        "surfaceHigh": "#272326",
-        "railPanel": "#060304",
+        "acento": "#C1121F",
+        "onAccent": "#FFFFFF",
+        "fondo": "#080508",
+        "superficie": "#191719",
+        "surfaceHigh": "#262326",
+        "railPanel": "#040304",
         "textPrimary": "#F7F3EA",
         "textSecondary": "#A6A29D",
-        "focus": "#FFB020",
+        "focus": "#F5F5F5",
         "onFocus": "#1A0A00",
-        "borde": "#4F190E",
-        "outline": "#3B3739",
-        "favorito": "#FF2E4D",
+        "borde": "#3C090E",
+        "outline": "#393739",
+        "favorito": "#E01E37",
         "éxito": "#3DBE7A",
         "advertencia": "#FFB020",
         "error": "#FF4D4D",
         "scrim": "#000000",
-        "placeholderTop": "#272326",
-        "placeholderBottom": "#3B130C"
+        "placeholderTop": "#262326",
+        "placeholderBottom": "#2D080D"
       },
       "fondo": {
         "tipo": "gradiente",
         "colores": [
-          "#0A0508",
-          "#33070F",
-          "#481105",
-          "#481105"
+          "#080508",
+          "#170408",
+          "#330A0A"
         ],
-        "ángulo": 359
+        "ángulo": 175
       },
       "forma": {
         "cardRadius": 16,
@@ -68,7 +67,7 @@
         "bodyScale": 1
       },
       "elevación": {
-        "cardShadow": 0.85,
+        "cardShadow": 0.55,
         "dialogShadow": 0.6,
         "heroScrim": 0.72
       },
@@ -79,28 +78,28 @@
       },
       "player": {
         "buttonScale": 1.05,
-        "playButtonScale": 1.5,
+        "playButtonScale": 1.15,
         "seekBarScale": 1.1,
         "labelScale": 1,
-        "buttonShape": "square"
+        "buttonShape": "rounded"
       },
       "superficies": {
         "botón": {
           "fill": {
             "tipo": "gradiente",
             "colores": [
-              "#FF9172",
-              "#FF4D1C",
-              "#E64519"
+              "#A9555A",
+              "#C1121F",
+              "#AE101C"
             ],
             "ángulo": 165
           },
           "stroke": {
             "ancho": 1,
-            "color": "#FF9D82"
+            "color": "#DD7D84"
           },
           "brillo": {
-            "color": "#FF4D1C",
+            "color": "#C1121F",
             "radius": 10,
             "alfa": 0.32
           }
@@ -108,31 +107,31 @@
         "buttonGhost": {
           "fill": {
             "tipo": "sólido",
-            "color": "#272326"
+            "color": "#262326"
           },
           "stroke": {
             "ancho": 1,
-            "color": "#4F190E"
+            "color": "#3C090E"
           }
         },
         "navActive": {
           "fill": {
             "tipo": "sólido",
-            "color": "#31110B"
+            "color": "#26070C"
           },
           "stroke": {
             "ancho": 1.5,
             "gradiente": {
-              "type": "gradient",
+              "tipo": "gradiente",
               "colores": [
-                "#FF7A55",
-                "#FF4D1C"
+                "#D14D57",
+                "#C1121F"
               ],
               "ángulo": 135
             }
           },
           "brillo": {
-            "color": "#FF4D1C",
+            "color": "#C1121F",
             "radius": 10,
             "alfa": 0.45
           }
@@ -140,26 +139,26 @@
         "rail": {
           "fill": {
             "tipo": "sólido",
-            "color": "#060304"
+            "color": "#040304"
           },
           "stroke": {
             "ancho": 1,
-            "color": "#5D1D0C"
+            "color": "#46080D"
           }
         },
         "iconButton": {
           "fill": {
             "tipo": "sólido",
-            "color": "#272326"
+            "color": "#262326"
           },
           "stroke": {
             "ancho": 1,
-            "color": "#4F190E"
+            "color": "#3C090E"
           }
         },
         "tarjeta": {
           "brillo": {
-            "color": "#FF4D1C",
+            "color": "#C1121F",
             "radius": 9,
             "alfa": 0.2
           }
@@ -167,10 +166,10 @@
         "cardFocus": {
           "stroke": {
             "ancho": 2,
-            "color": "#FFB020"
+            "color": "#F5F5F5"
           },
           "brillo": {
-            "color": "#FF4D1C",
+            "color": "#C1121F",
             "radius": 14,
             "alfa": 0.4
           }
@@ -178,10 +177,10 @@
         "focus": {
           "stroke": {
             "ancho": 2,
-            "color": "#FFB020"
+            "color": "#F5F5F5"
           },
           "brillo": {
-            "color": "#FF4D1C",
+            "color": "#C1121F",
             "radius": 8,
             "alfa": 0.45
           }
@@ -189,10 +188,10 @@
         "hero": {
           "stroke": {
             "ancho": 1,
-            "color": "#80270E"
+            "color": "#610910"
           },
           "brillo": {
-            "color": "#FF4D1C",
+            "color": "#C1121F",
             "radius": 16,
             "alfa": 0.22
           }
@@ -201,19 +200,19 @@
           "fill": {
             "tipo": "gradiente",
             "colores": [
-              "#FFB020",
-              "#FF4D1C"
+              "#F5F5F5",
+              "#C1121F"
             ],
             "ángulo": 0
           }
         }
       },
       "style": {
-        "gloss": 0.45
+        "gloss": 0.4
       },
       "layout": {
-        "hero": "fullBleed",
-        "rail": "strip"
+        "hero": "enmarcado",
+        "rail": "flotando"
       },
       "experiencia": "completa",
       "pluginColors": "respect",
@@ -221,7 +220,7 @@
         "background": true,
         "colors.accent": {
           "muestras": [
-            "#FF4D1C",
+            "#C1121F",
             "#F26522",
             "#FFC93C",
             "#E63946",
